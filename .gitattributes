@@ -1,0 +1,7 @@
+# Handle line endings automatically
+* text=auto
+
+# Force specific files to use LF (Unix standard for web/JSON)
+*.json text eol=lf
+*.vue text eol=lf
+*.js text eol=lf

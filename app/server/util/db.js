@@ -1,9 +1,0 @@
-// server/utils/db.js
-import mysql from "mysql2/promise";
-
-export const db = await mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "root123",   // ← your MySQL password here
-  database: "todo_db"
-});

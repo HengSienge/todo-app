@@ -73,7 +73,7 @@ h1 { margin: 0 0 24px; font-size: 24px; color: #1a1a2e; }
 
 form { display: flex; gap: 8px; margin-bottom: 24px; }
 
-input[type="text"], input:not([type="checkbox"]) {
+input:not([type="checkbox"]) {
   flex: 1;
   padding: 10px 14px;
   border: 1px solid #ddd;
